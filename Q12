@@ -1,0 +1,10 @@
+BEGIN
+INPUT User_Request
+DEFINE ADT
+USE Linear_Structure
+USE Non_Linear_Structure
+EXECUTE Algorithm
+ANALYZE Performance
+ALLOCATE Driver
+DISPLAY Efficiency
+END
