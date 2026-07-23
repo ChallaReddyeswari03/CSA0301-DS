@@ -1,0 +1,9 @@
+BEGIN
+INPUT Playlist
+STORE Songs in Array
+USE Linked_List for Updates
+USE Stack for Previous_Song
+USE Queue for Next_Song
+PERFORM Insert, Delete, Traverse
+DISPLAY Playlist
+END
