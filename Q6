@@ -1,0 +1,9 @@
+BEGIN
+INPUT Banking_Request
+DEFINE ADT Banking_System
+PERFORM Deposit, Withdrawal, Transaction
+USE Interface for Operations
+IMPLEMENT using Data_Structure
+UPDATE Account_Details
+DISPLAY Transaction_Status
+END
