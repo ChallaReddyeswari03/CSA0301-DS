@@ -1,0 +1,9 @@
+BEGIN
+INPUT User_Network
+USE Tree for Hierarchy
+USE Graph for Connections
+TRAVERSE using DFS
+TRAVERSE using BFS
+SEARCH User
+DISPLAY Network
+END
