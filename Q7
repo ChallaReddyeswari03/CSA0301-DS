@@ -1,0 +1,9 @@
+BEGIN
+INPUT Folder_Structure
+CHECK Base_Case
+CALL Recursive_Function
+STORE Function in Call_Stack
+PROCESS Nested_Folders
+RETURN to Previous_Call
+DISPLAY File_List
+END
