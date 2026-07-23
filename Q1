@@ -1,0 +1,21 @@
+BEGIN
+INPUT Temperature, Medical_History, Diagnosis
+CREATE Patient_Record      // Data Object
+STORE Patient_Record in Patient_List      // Data Structure
+DEFINE ADT Patient
+    Insert_Record()
+    Search_Record()
+    Update_Record()
+    Delete_Record()
+END DEFINE
+CALL Insert_Record(Patient_Record)
+IF Patient found THEN
+    CALL Update_Record()
+ELSE
+    DISPLAY "Patient Not Found"
+END IF
+USE Structure to represent Patient_Record
+USE Pointers for dynamic memory
+USE Functions to implement ADT operations
+DISPLAY "Patient data processed successfully"
+END
