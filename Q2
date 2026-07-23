@@ -1,0 +1,8 @@
+BEGIN
+INPUT Vehicle_Data, Road_Data, Signal_Data
+STORE data using Primitive Data Structures
+USE Array and Linked List for Linear Data
+USE Tree and Graph for Non-Linear Data
+PROCESS Traffic Information
+DISPLAY Traffic Status
+END
