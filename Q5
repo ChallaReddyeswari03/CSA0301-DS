@@ -1,0 +1,10 @@
+BEGIN
+INPUT Dataset
+CHECK Available_Memory
+CALCULATE Input_Size
+MEASURE Space_Complexity
+USE Auxiliary_Space if needed
+SELECT Efficient_Algorithm
+PROCESS Dataset
+DISPLAY Memory_Usage
+END
