@@ -1,0 +1,9 @@
+BEGIN
+INPUT Book_Record
+STORE Data in Data_Structure
+ORGANIZE Records
+SELECT Access_Method
+SEARCH Book
+UPDATE Availability
+DISPLAY Efficiency
+END
