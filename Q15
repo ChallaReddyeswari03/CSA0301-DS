@@ -1,0 +1,9 @@
+BEGIN
+INPUT Weather_Data
+STORE Primitive_Data
+USE Non_Primitive_Structure
+USE Linear_Structure
+USE Non_Linear_Structure
+PROCESS Weather_Data
+DISPLAY Results
+END
