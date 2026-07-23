@@ -1,0 +1,10 @@
+BEGIN
+INPUT Booking_Request
+DEFINE ADT
+PERFORM Booking
+PERFORM Cancellation
+IMPLEMENT using Array or Linked_List
+COMPARE Performance
+ALLOCATE Seat
+DISPLAY Booking_Status
+END
