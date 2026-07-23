@@ -1,0 +1,10 @@
+BEGIN
+INPUT Nested_Data
+SOLVE using Recursion
+TRACK Call_Stack
+MEASURE Memory_Usage
+SOLVE using Iteration
+CONTROL using Loop
+COMPARE Efficiency
+DISPLAY Best_Method
+END
