@@ -1,0 +1,9 @@
+BEGIN
+INPUT Search_Key
+SELECT Searching_Algorithm
+PERFORM Linear_Search
+PERFORM Binary_Search
+COMPARE Time_Complexity
+MEASURE Efficiency
+DISPLAY Search_Result
+END
